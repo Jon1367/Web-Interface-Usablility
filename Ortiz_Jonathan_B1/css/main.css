@@ -3,9 +3,9 @@
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:#FFFEF6; /*changes color of the whole text*/
+	color:black; /*changes color of the whole text*/
 	margin-top: 0;
-	background-color:#000000;
+	background-color:white;
 	
 }
 #wrapper{
@@ -21,16 +21,22 @@ body{
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-	border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
+	border-bottom: 1px solid #; /*changes color of border under project name*/
 }
 h1{
 	color:white;
 	margin-top: 0;
 	padding-top: 10px;
-	font-size:200%;
+	font-size:320%;
 }
 h2{
 	margin-top: 20px;
+}
+#header{
+	font-family:Arial Rounded MT Bold,arial;
+	text-align:center;
+	color:white;
+	letter-spacing:.3em;
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
