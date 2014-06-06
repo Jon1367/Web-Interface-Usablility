@@ -3,10 +3,9 @@
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:black; /*changes color of the whole text*/
+	color:white; /*changes color of the whole text*/
 	margin-top: 0;
-	background-color:white;
-	
+	background-color:black;	
 }
 #wrapper{
 	width:960px;
@@ -18,19 +17,30 @@ body{
 	box-shadow:         0px 0px 5px #ececec;
 
 }
+#par{
+	width:940px;
+}
+.center{
+	text-align:center;
+}
+.left{
+	float:left;
+}
 .right{
 	float:right;
+}
+.clear{
+	clear:both;
 }
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-	border-bottom: 1px solid #; /*changes color of border under project name*/
+	border-bottom:1px solid #3E56C7; /*changes color of border under project name*/
 }
 h1{
-	color:white;
 	margin-top: 0;
 	padding-top: 10px;
-	font-size:320%;
+	font-size:360%;
 }
 h2{
 	margin-top: 20px;
