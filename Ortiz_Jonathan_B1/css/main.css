@@ -17,6 +17,9 @@ body{
 	box-shadow:         0px 0px 5px #ececec;
 
 }
+img{
+	text-align:center;
+}
 #par{
 	width:940px;
 }
